@@ -1,0 +1,67 @@
+* ::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+:root {
+  /*primary colors*/
+
+  --primary-100: #cfe2ee;
+  --primary-200: #9fc5de;
+  --primary-300: #70a7cd;
+  --primary-400: #408abd;
+  --primary-500: #0d578a;
+  --primary-600: #0d578a;
+  --primary-700: #0a4167;
+  --primary-800: #062c45;
+  --primary-900: #031622;
+
+  /*Seconday colors */
+
+  --grey-100: #e4ecf2;
+  --grey-200: #cad9e4;
+  --grey-300: #afc7d7;
+  --grey-400: #95b4c9;
+  --grey-500: #628196;
+  --grey-500: #496171;
+  --grey-500: #31404b;
+  --grey-500: #182026;
+
+  --white: white;
+  --black: black;
+
+  --iphone14-width: 440px;
+  --ipad-width: 830px;
+  --max-width: 1400px;
+
+  --transition: all 0.5s ease;
+
+  --soft-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --medium-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  --hard-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+li {
+  list-style: none;
+}
+
+.section-center{
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+section{
+    margin:3rem 0;
+}
+

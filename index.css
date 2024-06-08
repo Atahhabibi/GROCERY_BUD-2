@@ -362,13 +362,17 @@ section {
 }
 
 .highlights {
-  background: rgb(202, 235, 195);
+  background: #df9a9a;
   padding: 0.5rem;
   margin-bottom: 1.4rem;
   letter-spacing: 9px;
   border-radius: var(--borderRadius);
   visibility: hidden;
   font-size: 1rem;
+}
+
+.show-highlight{
+  visibility: visible;
 }
 
 @media screen and (max-width: 480px) {
